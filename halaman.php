@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "prakweb2023x_213040085");
+$conn = mysqli_connect("localhost", "root", "", "prakweb_2023_C_213040085");
 
 $result = mysqli_query($conn, "SELECT * FROM buku");
 
